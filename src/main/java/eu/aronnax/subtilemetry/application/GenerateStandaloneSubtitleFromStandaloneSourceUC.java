@@ -1,4 +1,4 @@
-package eu.aronnax.subtelemetry.application;
+package eu.aronnax.subtilemetry.application;
 
 import io.jenetics.jpx.GPX;
 

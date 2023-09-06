@@ -1,9 +1,9 @@
-package eu.aronnax.subtelemetry;
+package eu.aronnax.subtilemetry;
 
 import picocli.CommandLine;
 
 @CommandLine.Command(name = "SubTelemetry", mixinStandardHelpOptions = true)
-public class SubTelemetryCliApp implements Runnable {
+public class SubtilemetryCliApp implements Runnable {
 
     @Override
     public void run() {
@@ -11,7 +11,7 @@ public class SubTelemetryCliApp implements Runnable {
     }
 
     public static void main(String[] args) {
-        int exitCode = new CommandLine(new SubTelemetryCliApp()).execute(args);
+        int exitCode = new CommandLine(new SubtilemetryCliApp()).execute(args);
         System.exit(exitCode);
     }
 }
