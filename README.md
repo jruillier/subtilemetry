@@ -14,7 +14,7 @@ Pros :
 Cons :
 - ❌ Text only gauges
 
-# Apps that burn telemetry gauges
+# Alternatively : Apps that burn telemetry gauges
 
 To visualize those valuable informations, you can add overly gauges using specialized apps :
 - https://goprotelemetryextractor.com/telemetry-overlay-gps-video-sensors (paid)
