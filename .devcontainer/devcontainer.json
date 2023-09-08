@@ -7,10 +7,13 @@
 
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "21",
+      "version": "21.ea.35",
       "jdkDistro": "open",
       "installMaven": true,
-      "mavenVersion": "3.9"
+      "mavenVersion": "3.9.4"
+    },
+    "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
+      "packages": "libimage-exiftool-perl"
     }
   }
 
